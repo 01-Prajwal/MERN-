@@ -6,7 +6,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 const CreateListings = () => {
   const [files, setFiles] = useState([])
-  // console.log(files);
+  console.log(files);
   const params = useParams()
   const {currentUser} = useSelector((state)=>state.user)
   const [formData, setFormData] = useState({
